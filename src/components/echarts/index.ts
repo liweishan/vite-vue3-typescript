@@ -1,0 +1,6 @@
+export { default as VChart } from './chart'
+export { default as VPie } from './pie'
+export { default as VTitle } from './title'
+export { default as VTooltip } from './tooltip'
+export { default as VLegend } from './legend'
+export { default as VBar } from './bar'
