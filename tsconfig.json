@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "lib": ["esnext", "dom"],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "coms/*": ["src/components/*"],
+      "styles/*": ["src/styles/*"],
+      "router/*": ["src/router/*"],
+      "store/*": ["src/store/*"],
+      "utils/*": ["src/utils/*"],
+      "api/*": ["src/api/*"],
+      "data/*": ["src/data/*"],
+      "mixins/*": ["src/mixins/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}
