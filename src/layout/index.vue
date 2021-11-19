@@ -60,7 +60,7 @@
           <span>欢迎来到潮南档案管理系统</span>
           <a-dropdown>
             <span class="avatar">
-              <a-avatar size="small" :src="userImg" />
+              <a-avatar size="small" src="https://gw.alipayobjects.com/zos/rmsportal/jZUIxmJycoymBprLOUbT.png" />
               <span class="name">admin</span>
             </span>
             <template #overlay>
@@ -128,8 +128,6 @@ import { getAddRouters } from 'utils/permission'
 
 import { uniqueArray, getDeepCopy } from 'utils/util'
 
-import userImg from '@/assets/user.png'
-
 const { Item, SubMenu, Divider } = Menu
 
 @Options({
@@ -150,7 +148,6 @@ export default class Layout extends Vue {
   private openKeys: string[] = []
   private crumbs: any[] = []
   private collapsed: boolean = false
-  private userImg = userImg
 
   created() {
     onBeforeRouteUpdate(this.init)

@@ -1,4 +1,4 @@
-import Mock from 'mockjs2'
+import Mock from 'mockjs'
 import './services/system'
 import './services/user'
 
